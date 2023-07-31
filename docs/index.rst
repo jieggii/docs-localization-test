@@ -1,11 +1,20 @@
-Welcome to Test project documentation!
-======================================
+.. Test project 1 documentation master file, created by
+   sphinx-quickstart on Tue Aug  1 00:44:35 2023.
+   You can adapt this file completely to your liking, but it should at least
+   contain the root `toctree` directive.
 
-**Test project** (/lu'make/) is a Python library for cooks and food lovers that
-creates recipes mixing random ingredients.  It pulls data from the `Open Food
-Facts database <https://world.openfoodfacts.org/>`_ and offers a *simple* and
-*intuitive* API.
+Welcome to Test project 1's documentation!
+==========================================
 
-.. note::
+.. toctree::
+   :maxdepth: 2
+   :caption: Contents:
 
-   This project is under active development.
+
+
+Indices and tables
+==================
+
+* :ref:`genindex`
+* :ref:`modindex`
+* :ref:`search`
