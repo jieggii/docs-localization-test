@@ -26,5 +26,4 @@ exclude_patterns = []
 
 html_theme = 'furo'
 html_static_path = ['_static']
-
-master_doc = 'source/index'
+source_dir = "docs/source"
