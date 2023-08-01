@@ -12,6 +12,9 @@ jobs:
         with:
           python-version: 3.x
 
-      - run: pip install mkdocs mkdocs-material
-      - run: mkdocs gh-deploy --force --clean --verbose --config-file ./docs/configs/mkdocs-en.yml
-      - run: mkdocs gh-deploy --force --clean --verbose --config-file ./docs/configs/mkdocs-ru.yml
+      - run: pip install mkdocs ghp-import
+
+      - run: mkdocs build --config-file ./docs/configs/mkdocs-en.yml
+      - run: mkdocs build --config-file ./docs/configs/mkdocs-ru.yml
+
+      - run: ghp-import --no-jekyll --message "Build docs" --push --force ./docs/build
