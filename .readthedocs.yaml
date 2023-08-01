@@ -7,5 +7,5 @@ build:
     # nodejs: "16"
   commands:
     - pip install mkdocs
-    - mkdocs build --config-file ./docs/configs/mkdocs-en.yml --site-dir $READTHEDOCS_OUTPUT/html/en
-    - mkdocs build --config-file ./docs/configs/mkdocs-ru.yml --site-dir $READTHEDOCS_OUTPUT/html/ru
+    - mkdocs build --config-file ./docs/configs/mkdocs-en.yml --site-dir $READTHEDOCS_OUTPUT/html/
+    - mkdocs build --config-file ./docs/configs/mkdocs-ru.yml --site-dir $READTHEDOCS_OUTPUT/html/
