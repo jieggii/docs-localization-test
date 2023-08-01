@@ -1,18 +1,17 @@
 [tool.poetry]
-name = "sphinx-localization-test"
+name = "docs-localization-test"
 version = "0.1.0"
 description = ""
 authors = ["jieggii <jieggii@protonmail.com>"]
 readme = "README.md"
-packages = [{include = "sphinx_localization_test"}]
+#packages = [{include = "docs_local"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"
-furo = "^2023.7.26"
 
 
 [tool.poetry.group.dev.dependencies]
-sphinx = "^7.1.1"
+mkdocs = "^1.5.1"
 
 [build-system]
 requires = ["poetry-core"]
