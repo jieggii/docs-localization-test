@@ -8,4 +8,4 @@ build:
   commands:
     - pip install mkdocs
     - mkdocs build --config-file ./docs/configs/mkdocs-en.yml --site-dir $READTHEDOCS_OUTPUT/html/
-    - mkdocs build --config-file ./docs/configs/mkdocs-ru.yml --site-dir $READTHEDOCS_OUTPUT/html/
+    - mkdocs build --config-file ./docs/configs/mkdocs-ru.yml --site-dir $READTHEDOCS_OUTPUT/html/ru
