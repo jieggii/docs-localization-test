@@ -1,0 +1,11 @@
+version: 2
+build:
+  os: "ubuntu-22.04"
+  tools:
+    python: "3"
+    # You can also specify other tool versions:
+    # nodejs: "16"
+  commands:
+    - pip install mkdocs
+    - mkdocs build --config-file ./docs/configs/mkdocs-en.yml --site-dir $READTHEDOCS_OUTPUT/html/en
+    - mkdocs build --config-file ./docs/configs/mkdocs-ru.yml --site-dir $READTHEDOCS_OUTPUT/html/ru
