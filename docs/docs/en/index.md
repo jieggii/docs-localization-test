@@ -1,2 +1,2 @@
 # Hello!
-![cutie](/assets/images/cutie.png)
+![cutie](assets/images/cutie.png)
